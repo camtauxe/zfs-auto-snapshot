@@ -29,3 +29,4 @@ $(DESTDIR)$(SYSTEMD_HOME):
 enable: install
 	systemctl enable --now zfs-auto-snapshot.target
 .PHONY: enable
+
